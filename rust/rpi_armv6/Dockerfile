@@ -1,6 +1,6 @@
 #  docker build -t <container id> .	
 
-FROM rust:latest
+FROM rust:1.51
 
 RUN dpkg --add-architecture armhf && \
     apt-get update && apt-get upgrade -y
