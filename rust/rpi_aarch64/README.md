@@ -1,6 +1,6 @@
-# RPI armv6
+# RPI AArch64
 
-Pipeline for ARM64 / AArch64 ([Raspberrypi 2 / 3](https://archlinuxarm.org/platforms/armv8/broadcom/raspberry-pi-3) [/ 4](https://archlinuxarm.org/platforms/armv8/broadcom/raspberry-pi-4) with Arch Linux AArch64).
+Pipeline for ARM64 / AArch64 ([Raspberrypi 2 / 3](https://archlinuxarm.org/platforms/armv8/broadcom/raspberry-pi-3) / [4](https://archlinuxarm.org/platforms/armv8/broadcom/raspberry-pi-4) with Arch Linux AArch64).
 You might have to change the OpenSSL version in advance, see the [Dockerfile](./Dockerfile) for more details.
 
 Build it as
